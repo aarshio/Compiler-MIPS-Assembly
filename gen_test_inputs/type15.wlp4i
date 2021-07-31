@@ -1,0 +1,166 @@
+start BOF procedures EOF
+BOF BOF
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID isint
+LPAREN (
+params paramlist
+paramlist dcl
+dcl type ID
+type INT
+INT int
+ID a
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor NUM
+NUM 1
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID isptr
+LPAREN (
+params paramlist
+paramlist dcl
+dcl type ID
+type INT STAR
+INT int
+STAR *
+ID a
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor NUM
+NUM 0
+SEMI ;
+RBRACE }
+procedures main
+main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+WAIN wain
+LPAREN (
+dcl type ID
+type INT STAR
+INT int
+STAR *
+ID a
+COMMA ,
+dcl type ID
+type INT
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls
+statements statements statement
+statements statements statement
+statements statements statement
+statements statements statement
+statements statements statement
+statements
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID isint
+LPAREN (
+arglist expr
+expr term
+term factor
+factor NUM
+NUM 31
+RPAREN )
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID isint
+LPAREN (
+arglist expr
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID isptr
+LPAREN (
+arglist expr
+expr term
+term factor
+factor ID
+ID a
+RPAREN )
+RPAREN )
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID isptr
+LPAREN (
+arglist expr
+expr term
+term factor
+factor NULL
+NULL NULL
+RPAREN )
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID isptr
+LPAREN (
+arglist expr
+expr term
+term factor
+factor NEW INT LBRACK expr RBRACK
+NEW new
+INT int
+LBRACK [
+expr term
+term factor
+factor ID
+ID a
+RBRACK ]
+RPAREN )
+RPAREN )
+SEMI ;
+statement DELETE LBRACK RBRACK expr SEMI
+DELETE delete
+LBRACK [
+RBRACK ]
+expr term
+term factor
+factor ID
+ID a
+SEMI ;
+RETURN return
+expr term
+term factor
+factor NUM
+NUM 0
+SEMI ;
+RBRACE }
+EOF EOF

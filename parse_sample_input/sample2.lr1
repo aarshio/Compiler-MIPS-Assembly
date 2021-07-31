@@ -1,0 +1,33 @@
+4
+(
+)
+BOF
+EOF
+2
+S
+P
+S
+3
+S BOF P EOF
+P ( P ) P
+P
+8
+17
+6 P shift 1
+7 P shift 2
+4 P shift 3
+6 EOF reduce 2
+0 BOF shift 4
+7 EOF reduce 2
+3 EOF shift 5
+4 EOF reduce 2
+2 EOF reduce 1
+6 ( shift 6
+6 ) reduce 2
+1 ) shift 7
+7 ( shift 6
+4 ( shift 6
+7 ) reduce 2
+4 ) reduce 2
+2 ) reduce 1
+BOF ( ) EOF

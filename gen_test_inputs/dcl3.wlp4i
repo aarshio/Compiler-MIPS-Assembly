@@ -1,0 +1,59 @@
+start BOF procedures EOF
+BOF BOF
+procedures main
+main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+WAIN wain
+LPAREN (
+dcl type ID
+type INT
+INT int
+ID a
+COMMA ,
+dcl type ID
+type INT
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID c
+BECOMES =
+NUM 5
+SEMI ;
+dcl type ID
+type INT
+INT int
+ID d
+BECOMES =
+NUM 3
+SEMI ;
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID c
+BECOMES =
+expr term
+term factor
+factor NUM
+NUM 1
+SEMI ;
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID
+ID d
+PLUS +
+term factor
+factor ID
+ID c
+SEMI ;
+RBRACE }
+EOF EOF

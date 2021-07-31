@@ -1,0 +1,1326 @@
+start BOF procedures EOF
+BOF BOF
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo40
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 16487
+SEMI ;
+statements
+RETURN return
+expr term
+term term STAR factor
+term factor
+factor ID
+ID var
+STAR *
+factor NUM
+NUM 2
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo39
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 15373
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo40
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo38
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 10300
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo39
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo37
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 13481
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo38
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo36
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 24605
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo37
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo35
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 5712
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo36
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo34
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 6651
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo35
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo33
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 25354
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo34
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo32
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 17696
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo33
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo31
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 23842
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo32
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo30
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 177
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo31
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo29
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 27042
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo30
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo28
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 16504
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo29
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo27
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 14898
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo28
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo26
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 12290
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo27
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo25
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 29630
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo26
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo24
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 26278
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo25
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo23
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 12146
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo24
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo22
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 3953
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo23
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo21
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 29026
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo22
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo20
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 27425
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo21
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo19
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 21244
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo20
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo18
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 21561
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo19
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo17
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 3095
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo18
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo16
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 16977
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo17
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo15
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 3027
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo16
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo14
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 24689
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo15
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo13
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 13805
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo14
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo12
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 23354
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo13
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo11
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 21729
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo12
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo10
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 14386
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo11
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo9
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 30412
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo10
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo8
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 22191
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo9
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo7
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 31639
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo8
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo6
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 5116
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo7
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo5
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 17498
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo6
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo4
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 12434
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo5
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo3
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 22414
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo4
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo2
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 25910
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo3
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo1
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID var
+BECOMES =
+NUM 22289
+SEMI ;
+statements
+RETURN return
+expr expr PLUS term
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo2
+LPAREN (
+RPAREN )
+PLUS +
+term factor
+factor ID
+ID var
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID foo
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo1
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+procedures main
+main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+WAIN wain
+LPAREN (
+dcl type ID
+type INT
+INT int
+ID a
+COMMA ,
+dcl type ID
+type INT
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID foo
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+EOF EOF

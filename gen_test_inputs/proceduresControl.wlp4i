@@ -1,0 +1,273 @@
+start BOF procedures EOF
+BOF BOF
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID true
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor NUM
+NUM 1
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID false
+LPAREN (
+params
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor NUM
+NUM 0
+SEMI ;
+RBRACE }
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID eq
+LPAREN (
+params paramlist
+paramlist dcl COMMA paramlist
+dcl type ID
+type INT
+INT int
+ID a
+COMMA ,
+paramlist dcl
+dcl type ID
+type INT
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID r
+BECOMES =
+NUM 0
+SEMI ;
+statements statements statement
+statements
+statement IF LPAREN test RPAREN LBRACE statements RBRACE ELSE LBRACE statements RBRACE
+IF if
+LPAREN (
+test expr EQ expr
+expr term
+term factor
+factor ID
+ID a
+EQ ==
+expr term
+term factor
+factor ID
+ID b
+RPAREN )
+LBRACE {
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID r
+BECOMES =
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID true
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+ELSE else
+LBRACE {
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID r
+BECOMES =
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID false
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+RETURN return
+expr term
+term factor
+factor ID
+ID r
+SEMI ;
+RBRACE }
+procedures main
+main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+WAIN wain
+LPAREN (
+dcl type ID
+type INT
+INT int
+ID a
+COMMA ,
+dcl type ID
+type INT
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls dcls dcl BECOMES NUM SEMI
+dcls
+dcl type ID
+type INT
+INT int
+ID r
+BECOMES =
+NUM 0
+SEMI ;
+statements statements statement
+statements
+statement WHILE LPAREN test RPAREN LBRACE statements RBRACE
+WHILE while
+LPAREN (
+test expr EQ expr
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID eq
+LPAREN (
+arglist expr COMMA arglist
+expr term
+term factor
+factor ID LPAREN arglist RPAREN
+ID eq
+LPAREN (
+arglist expr COMMA arglist
+expr term
+term factor
+factor ID
+ID a
+COMMA ,
+arglist expr
+expr term
+term factor
+factor ID
+ID b
+RPAREN )
+COMMA ,
+arglist expr
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID false
+LPAREN (
+RPAREN )
+RPAREN )
+EQ ==
+expr term
+term factor
+factor ID LPAREN RPAREN
+ID true
+LPAREN (
+RPAREN )
+RPAREN )
+LBRACE {
+statements statements statement
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID r
+BECOMES =
+expr expr PLUS term
+expr term
+term factor
+factor ID
+ID r
+PLUS +
+term factor
+factor ID LPAREN RPAREN
+ID true
+LPAREN (
+RPAREN )
+SEMI ;
+statement IF LPAREN test RPAREN LBRACE statements RBRACE ELSE LBRACE statements RBRACE
+IF if
+LPAREN (
+test expr LT expr
+expr term
+term factor
+factor ID
+ID a
+LT <
+expr term
+term factor
+factor ID
+ID b
+RPAREN )
+LBRACE {
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID a
+BECOMES =
+expr expr PLUS term
+expr term
+term factor
+factor ID
+ID a
+PLUS +
+term factor
+factor ID LPAREN RPAREN
+ID true
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+ELSE else
+LBRACE {
+statements statements statement
+statements
+statement lvalue BECOMES expr SEMI
+lvalue ID
+ID a
+BECOMES =
+expr expr MINUS term
+expr term
+term factor
+factor ID
+ID a
+MINUS -
+term factor
+factor ID LPAREN RPAREN
+ID true
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+RBRACE }
+RETURN return
+expr term
+term factor
+factor ID
+ID r
+SEMI ;
+RBRACE }
+EOF EOF
